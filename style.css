@@ -1,0 +1,29 @@
+/* Umumiy sahifa uslubi */
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #e0eafc, #cfdef3);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Sana va vaqt oynasi */
+#datetime {
+  background-color: #ffffffcc;
+  padding: 20px 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  font-size: 28px;
+  color: #333;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+/* Hover effekti */
+#datetime:hover {
+  transform: scale(1.02);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+}
